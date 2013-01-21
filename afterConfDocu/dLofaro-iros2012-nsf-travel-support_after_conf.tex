@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper,oneside]{report}
+%\usepackage[margin=0.25in]{geometry}
+\usepackage{indentfirst}
+
+
+
+\pagestyle{empty}
+
+\renewcommand{\thesection}{1}
+
+\begin{document}
+\begin{center}
+\LARGE{ \bf IROS 2012 Travel Award Reimbursement Packet: Experience Report }
+%\Large{Daniel M. Lofaro \\ }
+%\large{Electrical and Computer Engineering Dept. \\ Drexel University \\ Philadelphia PA, USA \\}
+%\large{\tt dml46@drexel.edu }
+\end{center}
+
+\section*{Student Information}
+\begin{itemize}
+\item Name: Daniel M. Lofaro - Electrical and Computer Engineering Dept. Drexel University
+\item Student Status: Full-time Ph.D Student (see attached file)
+\item Status: United States Citizen (see attached file)
+\item Email: \tt{dml46@drexel.edu}
+\end{itemize}
+
+
+\section*{Paper Information}
+\begin{itemize}
+\item Number: 1255
+\item Title: \textit{Humanoid Throwing: Design of Collision-Free Trajectories with Sparse Reachable Maps}
+\item Description: Design, simulation and hardware testing of a method to create collision-free throwing trajectories for high degree of freedom manipulators. 
+\end{itemize}
+
+
+\section*{Keynote Summary: Gill Pratt}
+Being a part of the DARPA Robot Challenge (DRC) I was especially interested in Gill Pratt's Keynote talk.  
+At the time our team (DRC-Hubo) had been tentatively accepted to the Track-A part of the competition with official acceptance to come on October 26th.  
+The talk gave us a chance to hear Gill announce any further details or other competitors in Track-A.  
+Though he did not state the names of any competitors at the time he did hint at foreign competitors that stepped down from their teaching positions to do this competition.  
+This ended up being the SHAFT team from Tokyo University.  
+In addition an important announcement was that the \textit{pump replacement} task with something else.  
+This ended up being tentatively replaced by \textit{hose/cable insertion}.  
+Other than the latter the rest of the presentation was about how DARPA is starting this competition as a direct response to the Fukushima disaster. 
+He states that if one valve was turned the whole thing could have ended up different.
+However we could not get humans close enough due to radiation levels.
+He also mentioned that the robots we did send in could not traverse the stairs even through they were designed to do just that. 
+This was because the robots were treaded robots and the stairs had front edges that were rounded off due to years of use.
+Overall it was a nice informative talk
+
+\section*{Summary of My Session}
+I presented my work on \textit{Humanoid Throwing: Design of Collision-Free Trajectories with Sparse Reachable Maps}.  
+This work shows how you can use a virtual model of a robot and pre-compute configurations that contain and do not contain self collisions.  
+The configurations consist of end effector locations in free-space and the corresponding joint-space.  
+The collection of N amount of configurations that do not contain a self collision form the Sparse Reachable Map or SRM.  
+This map can be used in real-time to compute inverse kinematics on joints consisting of \textul{more than} 7-DOF.  
+Though it can also be used for kinematic chains less than 7-DOF they can be analytically solved for thus is not as needed.
+Over all I was happy with the presentation especially because one of my colleagues from Samsung was there.
+He works on their \textit{``new''} humanoid called RoboRoy (which was officially daubed at IROS 2012).
+He said that he sees the use for using an SRM for HRI or path planning of our high-DOF robots.
+
+\end{document}
