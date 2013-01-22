@@ -6,3 +6,4 @@ pdflatex dLofaro-iros2012-nsf-travel-support_after_conf.tex
 bibtex ach.aux
 pdflatex dLofaro-iros2012-nsf-travel-support_after_conf.tex
 pdflatex dLofaro-iros2012-nsf-travel-support_after_conf.tex
+evince dLofaro-iros2012-nsf-travel-support_after_conf.pdf
